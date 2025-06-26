@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "PEACE~7F0ESZKC#HzW05Xz2o8bkphbM204F8W49oY8uQg9ZeakHX6uizYY",
   PREFIX: process.env.PREFIX || '.',
   BOT_NAME: process.env.BOT_NAME || "PEACE-MD",
   BOT: process.env.BOT || "hello 👋",
@@ -33,8 +33,8 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "254759000340@s.whatsapp.net",
-  OWNER_NAME: process.env.OWNER_NAME || "❁ ════ ❃• Peacemaker •❃ ═",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254752818245",
+  OWNER_NAME: process.env.OWNER_NAME || "RN SILVANOS",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "254738633163",
   SUDO_NUMBER: process.env.SUDO_NUMBER || "254752818245",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
